@@ -69,3 +69,9 @@ body {
 hr {
   width: 100px;
 }
+
+.card {
+  background-color: #1b1b1b;
+  filter: drop-shadow(0 1px 3px #0e0e0e);
+  padding: 40px;
+}
