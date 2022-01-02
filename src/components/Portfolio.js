@@ -12,7 +12,7 @@ class Portfolio extends Component {
                 </Container>
                 </div>
                 <Container className="body">
-                    
+                    <p>yeah i'll figure this out</p>
                 </Container>
             </div>
         );

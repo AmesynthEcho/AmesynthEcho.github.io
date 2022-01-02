@@ -25,8 +25,40 @@
     float: right;
 }
 
+.description h3 {
+    text-decoration: underline;
+}
+
 .tags {
     width: 53%;
     display: block;
     float: right;
+}
+
+/* mobile styling */
+@media (max-width: 767px) {
+    .video {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .description h3 {
+        font-size: 16px;
+    }
+
+    .description p {
+        font-size: 12px;
+    }
 }

@@ -40,3 +40,9 @@ a.navbar-link:hover {
     float: right;
     display: inline-block;
 }
+
+@media (max-width: 767px) {
+    .container {
+      width: 85%;
+    }
+  }
