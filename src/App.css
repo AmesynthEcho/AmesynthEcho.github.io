@@ -65,3 +65,7 @@ body {
   background-color: #1b1b1b;
   color: #d1d1d1;
 }
+
+hr {
+  width: 100px;
+}

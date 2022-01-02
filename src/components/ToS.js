@@ -55,21 +55,33 @@ class ToS extends Component {
                                 </li>
                             </ol>
                         <li>Process</li>
+                            <ol>
+                                <li>Initial discussion - I require references and this 
+                                    can be anything ranging from stock pictures to 
+                                    stick figure sketches to get a better idea of what 
+                                    you're looking for.
+                                </li>
+                                <li>Initial payment - At least 50% paid upfront prior
+                                    to starting on the sketches.
+                                </li>
+                                <li>First update/approval (Sketches) - Adjustments may 
+                                    be made.
+                                </li>
+                                <li>Second update/approval (Flats) - Adjustments/color 
+                                    corrections may be made.
+                                </li>
+                                <li>Final payment - Remaining payment must be made 
+                                    prior to shading/detail work.
+                                </li>
+                            </ol>
                         <li>Will Draw</li>
-                            <ol>
-                                <li>People/OCs</li>
-                                <li>Humanoid characters (ie. catpeople)</li>
-                                <li>Fanart</li>
-                            </ol>
+                            <ul>
+                                <li>People/OCs, humanoid characters (ie. catpeople), fanart</li>
+                            </ul>
                         <li>Won't Draw</li>
-                            <ol>
-                                <li>NSFW</li>
-                                <li>Mecha</li>
-                                <li>Gore</li>
-                                <li>Furries</li>
-                                <li>Offensive Content</li>
-                                <li>Complex animations</li>
-                            </ol>
+                            <ul>
+                                <li>NSFW, mecha, gore, furries, offensive content, complex animations</li>
+                            </ul>
                     </ol>
                     <h2>Fanart/General Art</h2>
                     <hr/>

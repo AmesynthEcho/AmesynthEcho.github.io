@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../css/Home.css'
 import {Container} from 'react-bootstrap';
 
 class Music extends Component {
@@ -9,7 +8,6 @@ class Music extends Component {
                 <div className="banner">
                 <Container className="home-content">
                     <h1 className="title">Music</h1>
-                    {/* <h3 className="subtitle">software engineer // digital artist // graphic designer // twitch affiliate</h3> */}
                 </Container>
                 </div>
                 <Container className="body">
