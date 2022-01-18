@@ -18,7 +18,7 @@ class AppNavbar extends Component {
                             <NavLink className="navbar-link" to="/portfolio">Portfolio</NavLink>
                             <NavLink className="navbar-link" to="/music">Music</NavLink>
                             <NavLink className="navbar-link" to="/commissions">Commissions</NavLink>
-                            <NavLink className="navbar-link" to="tos">Terms of Service</NavLink>
+                            <NavLink className="navbar-link" to="tos">ToS</NavLink>
 
                             <div className="social-icons">
                                 <a className="navbar-link" href="https://twitter.com/AmesynthEcho"><FaTwitter/></a>

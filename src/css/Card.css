@@ -5,7 +5,6 @@
     margin: auto;
     margin-bottom: 40px;
     height: 100%;
-    min-height: 100px;
     position: relative;
     overflow: auto;
 }
@@ -27,6 +26,11 @@
 
 .description h3 {
     text-decoration: underline;
+    font-size: 20px;
+}
+
+.description p {
+    font-size: 14px;
 }
 
 .tags {
@@ -36,7 +40,7 @@
 }
 
 /* mobile styling */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .video {
         width: 100%;
         height: auto;
@@ -52,6 +56,60 @@
         width: 100%;
         height: auto;
         display: block;
+    }
+
+    .description h3 {
+        font-size: 16px;
+    }
+
+    .description p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1180px) and (orientation:portrait) {
+    .video {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .description h3 {
+        font-size: 16px;
+    }
+
+    .description p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1180px) and (orientation:landscape) {
+    .video {
+        width: 30%;
+        height: auto;
+        display: inline-block;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .description {
+        width: 70%;
+        padding: 0 4%;
+        height: auto;
+        display: inline-block;
     }
 
     .description h3 {

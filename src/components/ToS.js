@@ -9,24 +9,45 @@ class ToS extends Component {
                 <div className="banner">
                 <Container className="home-content">
                     <h1 className="title">Terms of Service</h1>
-                    <h3 className="subtitle">Last Updated: January 1, 2022</h3>
+                    <h3 className="subtitle">Last Updated: January 18, 2022</h3>
                 </Container>
                 </div>
                 <Container className="body">
                     <h2>Commissions</h2>
                     <hr/>
                     <ol>
-                        <li>Pricing and Payment</li>
+                        <li>Process - <b><u>Please note that I reserve the 
+                            right to decline any commission for any reason. </u></b></li>
                             <ol>
-                                <li>I require at least 50% of the price upfront
-                                    prior to working on your commission and full
-                                    payment must be received prior to sending 
-                                    the final piece. 
+                                <li><u>Initial discussion</u> - I require references and this 
+                                    can be anything ranging from stock pictures to 
+                                    stick figure sketches to get a better idea of what 
+                                    you're looking for.
                                 </li>
-                                <li>I accept payment via PayPal.</li>
+                                <li><u>Initial payment</u> - At least 50% paid upfront prior
+                                    to starting on the sketches.
+                                </li>
+                                <li><u>First update/approval (Sketches)</u> - Revisions may 
+                                    be made (max 3).
+                                </li>
+                                <li><u>Second update/approval (Flats)</u> - Minor adjustments/
+                                    color corrections may be made.
+                                </li>
+                                <li><u>Final payment</u> - Remaining payment must be made 
+                                    prior to shading/detail work.
+                                </li>
                             </ol>
-                        <li>Refunds and Cancellations</li>
+                        <li>Will Draw</li>
+                        <ul>
+                            <li>People/OCs, humanoid characters (ie. catpeople), fanart, simple animations (emotes only), frog</li>
+                        </ul>
+                        <li>Won't Draw</li>
+                        <ul>
+                            <li>NSFW, mecha, gore, furries, offensive content, complex animations</li>
+                        </ul>
+                        <li>Payments, Refunds, and Cancellations</li>
                             <ol>
+                                <li>I accept payment via PayPal. </li>
                                 <li>In the event that you would like to cancel
                                     before I start on your commission, I will
                                     give a full refund.
@@ -34,7 +55,7 @@ class ToS extends Component {
                                 <li>If you would like to cancel after I have 
                                     started your commission, I will give a 
                                     partial refund dependent on the progress
-                                    made.
+                                    made. No refunds will be made on finished pieces. 
                                 </li>
                             </ol>
                         <li>Usage of Commissioned Art</li>
@@ -44,53 +65,28 @@ class ToS extends Component {
                                     NFTs, cryptocurrency, or future inventions 
                                     in the space.
                                 </li>
-                                <li>My art may not be used for commercial 
-                                    purposes unless I have given explicit 
-                                    permission or the art is being made for 
-                                    commercial purposes
+                                <li>My art may only be used for personal use
+                                    unless we have discussed otherwise and I 
+                                    have given explicit consent for commercial 
+                                    use, including adjusted rates.
                                 </li>
-                                <li>My art may be used for personal use.</li>
                                 <li>I reserve the right to use finished 
                                     commissions in my portfolio. 
                                 </li>
                             </ol>
-                        <li>Process</li>
-                            <ol>
-                                <li>Initial discussion - I require references and this 
-                                    can be anything ranging from stock pictures to 
-                                    stick figure sketches to get a better idea of what 
-                                    you're looking for.
-                                </li>
-                                <li>Initial payment - At least 50% paid upfront prior
-                                    to starting on the sketches.
-                                </li>
-                                <li>First update/approval (Sketches) - Adjustments may 
-                                    be made.
-                                </li>
-                                <li>Second update/approval (Flats) - Adjustments/color 
-                                    corrections may be made.
-                                </li>
-                                <li>Final payment - Remaining payment must be made 
-                                    prior to shading/detail work.
-                                </li>
-                            </ol>
-                        <li>Will Draw</li>
-                            <ul>
-                                <li>People/OCs, humanoid characters (ie. catpeople), fanart</li>
-                            </ul>
-                        <li>Won't Draw</li>
-                            <ul>
-                                <li>NSFW, mecha, gore, furries, offensive content, complex animations</li>
-                            </ul>
                     </ol>
                     <h2>Fanart/General Art</h2>
                     <hr/>
                     <ol>
                         <li>Please do not repost my art on other platforms.</li>
-                        <li>If you wish to use my art for your content/platforms, 
-                            you must contact me directly, prior to usage, to 
-                            discuss crediting and payment. I will not sort out 
-                            details through a third party.
+                        <li>If you wish to use my existing art for your 
+                            content/platforms, you must contact me directly, 
+                            prior to usage, to discuss crediting and payment. 
+                            I will not sort out details or file transfers 
+                            through a third party. I reserve the right to 
+                            decline any request for any reason. Violation will 
+                            result in a request for either removal or proper
+                            crediting and payment or copyright claims.
                         </li>
                     </ol>
                     <h2>Contest Submissions</h2>
@@ -98,7 +94,7 @@ class ToS extends Component {
                     <ol>
                         <li>My art may only be used within the specified terms of 
                             the contest (ie. if the contest is for a design for 
-                            one item, it may not be used for another item). 
+                            one item, it may only be used for that item). 
                             This is mainly because it probably won't look that 
                             great if I design for a specific dimension and it's
                             printed as a different dimension. Printing for 

@@ -19,7 +19,7 @@ a.navbar-link {
     height: 100%;
     line-height: 2.5;
     transition-duration: 0.2s;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 a.navbar-link:hover {

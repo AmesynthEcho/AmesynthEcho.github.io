@@ -1,6 +1,13 @@
 import React, {Component} from 'react';
 import {Container} from 'react-bootstrap';
 
+import "../css/Portfolio.css"
+
+import character from "../images/sheets/Character_Art.png"
+import emotes from "../images/sheets/Emotes.png"
+import tos from "../images/sheets/ToS.png"
+import contact from "../images/sheets/Contact.png"
+
 class Commissions extends Component {
     render () {
         return(
@@ -8,18 +15,23 @@ class Commissions extends Component {
                 <div className="banner">
                 <Container className="home-content">
                     <h1 className="title">Commissions</h1>
-                    <h3 className="subtitle">Last Updated: January 1, 2022</h3>
+                    <h3 className="subtitle">Last Updated: January 18, 2022</h3>
                 </Container>
                 </div>
                 <Container className="body">
                     <h2>Commission Sheets</h2>
                     <hr/>
-                    <p>asdfhdasifhaowiefw colors</p>
+                    <img className='comm-sheet' src={character}/>
+                    <img className='comm-sheet' src={emotes}/>
+                    <img className='comm-sheet' src={tos}/>
+                    <img className='comm-sheet' src={contact}/>
                     <h2>Pricing</h2>
                     <hr/>
                     <h3>Emotes</h3>
                     <ul>
-                        <li>Static emotes: $40</li>
+                        <li>Emotes: $40 each</li>
+                        <li>Goose variants: $30 each</li>
+                        <li>Animated: $50 each</li>
                     </ul>
                     <h3>Character Art - Portrait</h3>
                     <ul>
@@ -43,45 +55,38 @@ class Commissions extends Component {
                     </ul>
                     <h2>Details</h2>
                     <hr/>
-                    <h3>Process</h3>
+                    <h3>Process - <u>Please note that I reserve the 
+                        right to decline any commission for any reason. </u></h3>
                     <ol>
-                        <li>Initial discussion - I require references and this 
+                        <li><u>Initial discussion</u> - I require references and this 
                             can be anything ranging from stock pictures to 
                             stick figure sketches to get a better idea of what 
                             you're looking for.
                         </li>
-                        <li>Initial payment - At least 50% paid upfront prior
+                        <li><u>Initial payment</u> - At least 50% paid upfront prior
                             to starting on the sketches.
                         </li>
-                        <li>First update/approval (Sketches) - Adjustments may 
-                            be made.
+                        <li><u>First update/approval (Sketches)</u> - Revisions may 
+                            be made (max 3).
                         </li>
-                        <li>Second update/approval (Flats) - Adjustments/color 
-                            corrections may be made.
+                        <li><u>Second update/approval (Flats)</u> - Minor adjustments/
+                            color corrections may be made.
                         </li>
-                        <li>Final payment - Remaining payment must be made 
+                        <li><u>Final payment</u> - Remaining payment must be made 
                             prior to shading/detail work.
                         </li>
                     </ol>
                     <h3>Will Draw</h3>
                     <ul>
-                        <li>People/OCs, humanoid characters (ie. catpeople), fanart</li>
+                        <li>People/OCs, humanoid characters (ie. catpeople), fanart, simple animations (emotes only), frog</li>
                     </ul>
                     <h3>Won't Draw</h3>
                     <ul>
                         <li>NSFW, mecha, gore, furries, offensive content, complex animations</li>
                     </ul>
-                    <h3>Pricing and Payment</h3>
+                    <h3>Payments, Refunds, and Cancellations</h3>
                     <ol>
-                        <li>I require at least 50% of the price upfront
-                            prior to working on your commission and full
-                            payment must be received prior to sending 
-                            the final piece. 
-                        </li>
-                        <li>I accept payment via PayPal.</li>
-                    </ol>
-                    <h3>Refunds and Cancellation</h3>
-                    <ol>
+                        <li>I accept payment via PayPal. </li>
                         <li>In the event that you would like to cancel
                             before I start on your commission, I will
                             give a full refund.
@@ -89,24 +94,30 @@ class Commissions extends Component {
                         <li>If you would like to cancel after I have 
                             started your commission, I will give a 
                             partial refund dependent on the progress
-                            made.
+                            made. No refunds will be made on finished pieces. 
                         </li>
                     </ol>
                     <h3>Usage of Commissioned Art</h3>
                     <ol>
-                        <li>None of my content may be used in any blockchain-
-                            related technology, to include NFTs, cryptocurrency, 
-                            or future inventions in the space.
+                        <li>None of my content may be used in any 
+                            blockchain-related technology, to include 
+                            NFTs, cryptocurrency, or future inventions 
+                            in the space.
                         </li>
-                        <li>My art may not be used for commercial purposes unless 
-                            I have given explicit permission or the art is being 
-                            made for commercial purposes.
+                        <li>My art may only be used for personal use
+                            unless we have discussed otherwise and I 
+                            have given explicit consent for commercial 
+                            use, including adjusted rates.
                         </li>
-                        <li>My art may be used for personal use.</li>
-                        <li>I reserve the right to use finished commissions in 
-                            my portfolio. 
+                        <li>I reserve the right to use finished 
+                            commissions in my portfolio. 
                         </li>
                     </ol>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Discord (if I already have you added)</li>
+                        <li>Twitter: <a href="https://twitter.com/AmesynthEcho">@AmesynthEcho</a></li>
+                    </ul>
                 </Container>
             </div>
         );
